@@ -17,3 +17,9 @@ SELECT TOP 2
 *
 FROM customers
 ORDER BY score ASC
+
+-- Get the Two Most Recent Orders
+
+SELECT TOP 2 * 
+FROM orders
+ORDER BY order_date DESC
